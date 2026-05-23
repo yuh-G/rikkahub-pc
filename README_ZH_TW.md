@@ -11,7 +11,7 @@
 
 ## 🚀 下載
 
-到 [Releases](https://github.com/yuh-G/rikkahub-pc/releases) 頁面下載最新的安裝包，
+到 [Releases](https://github.com/yuh-G/rikkahub-desktop/releases) 頁面下載最新的安裝包，
 雙擊 `Rikkahub_X.X.X_x64-setup.exe`。安裝精靈會讓你選擇：
 
 - 程式安裝路徑（預設 `%LOCALAPPDATA%\Rikkahub\`，**不需要管理員權限**）
@@ -42,10 +42,14 @@
 - 🔎 模型內建搜尋開關（Gemini Search Grounding、OpenAI `web_search`）
 - 🧠 助理層級或全域共用的記憶工具，支援參考最近對話 + 長時間無訊息後自動注入時間提醒
 - 🧩 Prompt 範本變數（模型名稱、目前時間、地區、裝置資訊……）
-- 🤖 多助理自訂：獨立 System Prompt、模式注入、世界書、快捷訊息
+- 🤖 多助理自訂：獨立 System Prompt、提示詞注入、世界書、快捷訊息
+- 🛠️ 模型精細化配置：手動新增模型，每個模型可設自訂請求標頭 / 請求內容 / 供應商覆寫（per-model
+  baseUrl + API Key）
 - 🎨 圖像生成：gpt-image-2、DALL·E 3、Imagen、Qwen-Image、FLUX、…
-- 🎙️ TTS 與 ASR：Windows 系統語音、OpenAI、Gemini、Qwen、Groq、MiniMax、MiMo
+- 🎙️ TTS 與 ASR：Windows 系統語音、OpenAI、Gemini、Qwen、Groq、MiniMax、MiMo，**內建測試按鈕**
+- 📥 一鍵匯入 Android 端 .zip 備份：對話歷史、設定、附件、Skills、MCP、提示詞注入、世界書、快捷訊息
 - 📤 WebDAV 與 S3 相容雲端備份，JSON 匯入匯出
+- 🔄 應用內檢查更新：自動下載並安裝新版本，覆蓋安裝完整保留資料
 - 📊 請求日誌與每日活動熱力圖統計
 
 ## 🏗️ 從原始碼建置
@@ -122,7 +126,7 @@ bun run smoke:request-chain
 
 如果 Rikkahub 對你有幫助，歡迎按個 Star ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yuh-G/rikkahub-pc&type=Date)](https://star-history.com/#yuh-G/rikkahub-pc&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=yuh-G/rikkahub-desktop&type=Date)](https://star-history.com/#yuh-G/rikkahub-desktop&Date)
 
 ## 📄 授權條款
 

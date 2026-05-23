@@ -42,7 +42,7 @@
     "active": true,
     "targets": ["nsis"],
     "publisher": "yuh-G",
-    "homepage": "https://github.com/yuh-G/rikkahub-pc",
+    "homepage": "https://github.com/yuh-G/rikkahub-desktop",
     "category": "Productivity",
     "copyright": "© 2026 yuh-G. Based on RikkaHub by @re-ovo.",
     "shortDescription": "Native Windows LLM chat client.",

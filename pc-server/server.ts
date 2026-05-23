@@ -11008,7 +11008,7 @@ async function routeApi(request: Request, url: URL) {
   // Unauthenticated GitHub API has a 60-req/hr/IP limit, which is fine for "click to check".
   if (path === "update/check" && request.method === "GET") {
     try {
-      const repo = "yuh-G/rikkahub-pc";
+      const repo = "yuh-G/rikkahub-desktop";
       const res = await fetch(`https://api.github.com/repos/${repo}/releases/latest`, {
         headers: { Accept: "application/vnd.github+json", "User-Agent": "RikkaHub-PC" },
       });

@@ -5410,8 +5410,8 @@ function AboutSection() {
     { label: "版本", value: APP_VERSION, icon: Settings2, onClick: undefined, action: "update" as const },
     { label: "系统", value: typeof navigator === "undefined" ? "Windows / Web" : navigator.userAgent, icon: Smartphone, onClick: undefined, action: undefined },
     { label: "官网", value: "https://rikka-ai.com", icon: Globe, onClick: () => void openExternal("https://rikka-ai.com/"), action: undefined },
-    { label: "GitHub", value: "https://github.com/yuh-G/rikkahub-pc", icon: Github, onClick: () => void openExternal("https://github.com/yuh-G/rikkahub-pc"), action: undefined },
-    { label: "License", value: "https://github.com/yuh-G/rikkahub-pc/blob/master/LICENSE", icon: FileClock, onClick: () => void openExternal("https://github.com/yuh-G/rikkahub-pc/blob/master/LICENSE"), action: undefined },
+    { label: "GitHub", value: "https://github.com/yuh-G/rikkahub-desktop", icon: Github, onClick: () => void openExternal("https://github.com/yuh-G/rikkahub-desktop"), action: undefined },
+    { label: "License", value: "https://github.com/yuh-G/rikkahub-desktop/blob/master/LICENSE", icon: FileClock, onClick: () => void openExternal("https://github.com/yuh-G/rikkahub-desktop/blob/master/LICENSE"), action: undefined },
   ];
   return (
     <>

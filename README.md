@@ -13,7 +13,7 @@
 ## 🚀 Download
 
 Grab the latest installer from the
-[Releases](https://github.com/yuh-G/rikkahub-pc/releases) page and double-click
+[Releases](https://github.com/yuh-G/rikkahub-desktop/releases) page and double-click
 `Rikkahub_X.X.X_x64-setup.exe`. The wizard:
 
 - Asks where to install the program (default: `%LOCALAPPDATA%\Rikkahub\`,
@@ -46,11 +46,16 @@ No telemetry, no admin, no cloud account required. Everything is local.
 - 🔎 Per-model built-in search toggle (Gemini Search Grounding, OpenAI `web_search`)
 - 🧠 Per-assistant or global memory tool, plus recent-chat awareness and a time-gap reminder
 - 🧩 Prompt template variables (model name, current time, locale, device info, …)
-- 🤖 Multiple customizable assistants with their own system prompts, mode injections,
+- 🤖 Multiple customizable assistants with their own system prompts, prompt injections,
   world books, quick messages
+- 🛠️ Granular per-model configuration: manually add models, set custom request headers /
+  custom request bodies / provider overwrite (per-model baseUrl + API Key)
 - 🎨 Image generation: gpt-image-2, DALL·E 3, Imagen, Qwen-Image, FLUX, …
-- 🎙️ TTS and ASR via Windows SAPI, OpenAI, Gemini, Qwen, Groq, MiniMax, MiMo
+- 🎙️ TTS and ASR via Windows SAPI, OpenAI, Gemini, Qwen, Groq, MiniMax, MiMo, **with built-in test buttons**
+- 📥 One-click import from Android .zip backups: conversation history, settings, attachments,
+  Skills, MCP, prompt injections, world books, quick messages
 - 📤 WebDAV and S3-compatible cloud backup, plus JSON import/export
+- 🔄 In-app update check: auto-download and install new versions, with full data preservation on upgrade
 - 📊 Request log and usage statistics with a daily activity heatmap
 
 ## 🏗️ Build from source
@@ -133,7 +138,7 @@ belong to the original project.
 
 If Rikkahub is useful to you, please give it a star ⭐
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yuh-G/rikkahub-pc&type=Date)](https://star-history.com/#yuh-G/rikkahub-pc&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=yuh-G/rikkahub-desktop&type=Date)](https://star-history.com/#yuh-G/rikkahub-desktop&Date)
 
 ## 📄 License
 
